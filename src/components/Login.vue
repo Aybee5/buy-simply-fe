@@ -1,6 +1,6 @@
 <template>
   <div class="md:flex items-center justify-center min-h-screen container">
-    <div class="img-section bg-[#F8EAFF] hidden md:block shrink-0">
+    <div class="img-section bg-[#F8EAFF] hidden md:block">
       <img src="@/assets/logo.svg" alt="logo" class="pt-6 pl-11 pb-12" />
       <div class="px-10 lg:px-16 pb-[52px] flex flex-col items-center gap-6">
         <img src="@/assets/login-team.png" />
@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col justify-center items-center mt-10 mb-40 basis-1/2 shrink-0 md:mx-16">
+    <div class="flex flex-col justify-center items-center mt-10 mb-40 basis-1/2 md:mx-16">
       <img src="@/assets/logo.svg" alt="logo" class="md:hidden mb-10" />
       <div class="flex items-center flex-col">
         <h2 class="text-[#61227D] font-bold text-[24px] md:text-[32px] mb-1">Welcome Back</h2>
